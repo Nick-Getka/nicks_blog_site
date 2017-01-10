@@ -1,0 +1,133 @@
+/*Overall*/
+body {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-color: lightgrey;
+  color: black;
+}
+#top_container{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.line{
+ position: relative;
+ clear:both;
+  margin-left: 12.5%;
+  width: 75%;
+  height: 1px;
+  background-color:darkgrey;
+}
+
+/*Topbar css*/
+#topbar{
+  z-index:500;
+  position: fixed;
+  margin: 0;
+  width: 100%
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+  padding-top: .5%;
+  padding-bottom: .5%;
+  margin: 0;
+  background-color : white;
+}
+a.navbar-brand{
+    padding: 0;
+    margin: -20%;
+}
+#n_logo {
+  background: 50% 50% no-repeat;
+  height: 140%;
+}
+.nav li a {
+  font-size: 150%;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+/*Footer css*/
+#footer{
+  z-index: 400;
+  width: 100%;
+  text-align: center;
+}
+#footer ul{
+  padding-top: 1%;
+  list-style: none;
+}
+#footer ul li{
+  display: inline;
+}
+#footer ul li a{
+  text-decoration: underline;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  color: darkgrey;
+}
+
+/*Homepage css*/
+#homepage {
+  z-index: 100;
+  padding-top: 100px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#small{
+  text-align: center;
+}
+#latest{
+  font-size:2.5em;
+  font-style: oblique;
+  text-decoration: underline;
+  margin-top:1%;
+}
+.head{
+  height: 50vh;
+  width: 50vh;
+  padding:5%;
+  margin:auto;
+}
+.welcome{
+  font-weight: bold;
+  font-style:oblique;
+  font-size: 3em;
+  line-height: 2em
+}
+.desc{
+  font-size:1.5em;
+  line-height: 2em
+}
+
+/*Summary css*/
+.sum_row{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.sum{
+  padding: 0;
+}
+.sum_title{
+  font-size:2em;
+  text-decoration: underline;
+  color: black;
+}
+.sum_date{
+  font-size:1em;
+}
+.sum_text{
+  font-size:1em;
+}
+
+/*Post list*/
+#post_list{
+  z-index: 100;
+  position: absolute;
+  padding-top: 100px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
