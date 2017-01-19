@@ -44,7 +44,7 @@
                   <li><a href=".?action=archive&amp;type=Books">Books</a></li>
                   <li><a href=".?action=archive&amp;type=Music">Music</a></li>
                 </ul>
-                <li><a href=".?action=coming_soon">Resume</a></li>
+                <li><a href="../res/ResumeGetka4-14.pdf" download>Resume</a></li>
                 <li><a href="https://github.com/Nick-Getka">Github</a></li>
                 <li><a href=".?action=coming_soon">Contact</a></li>
               </ul>

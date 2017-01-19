@@ -54,6 +54,18 @@ class Post{
     if ( $row ) return new Post( $row );
   }
 
+  public static function getByTitle( $title ) {
+    $conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
+    $sql = "SELECT * FROM blog_schema.posts WHERE post_title = :title";
+    $st = $conn->prepare( $sql );
+    $st->bindValue( ':title', $title, PDO::PARAM_INT );
+    $st->execute();
+    $row = $st->fetch();
+    $conn = null;
+
+    if ( $row ) return new Post( $row );
+  }
+
   public static function getLatest(){
     $conn = new PDO(DB_DSN, DB_USERNAME, DB_PASSWORD );
     $sql = "SELECT * FROM blog_schema.posts ORDER BY post_id DESC LIMIT 1";
