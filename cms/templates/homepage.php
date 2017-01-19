@@ -26,6 +26,9 @@
             <div class ="hidden-xs hidden-sm col-md-12 col-lg-12">
               <p class="desc"><span class="welcome">Welcome...</span><br><?php echo $auth['desc'];?></p>
             </div>
+            <div class ="col-xs-12 col-sm-12 hidden-md hidden-lg">
+              <p class="desc"><span class="welcome">Welcome...</span><br></p>
+            </div>
           </div>
         </div>
       </div>
