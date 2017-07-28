@@ -1,5 +1,5 @@
 <?php
-  require("../config.php");
+  require("../conf.php");
   $action = isset( $_GET['action'] ) ? $_GET['action'] : "";
 
   error_reporting(E_ALL);
