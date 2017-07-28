@@ -39,19 +39,22 @@ function login(){
   if(isset( $_POST['login'])){
     if($_POST['username'] == ADMIN_USERNAME && $_POST['password'] == ADMIN_PASSWORD){
       $_SESSION['username'] == ADMIN_USERNAME;
-      require( TEMPLATE_PATH . "/cs_temp.php" );
+
       // print("SUCCESS!");
       // header( "Location: admin.php" );
     }
     else{
+      require( TEMPLATE_PATH . "/cs_temp.php" );
       print("FAILURE!");
       header( "Location: index.php" );
     }
   }
   else{
+    require( TEMPLATE_PATH . "/cs_temp.php" );
     print("FAILURE!");
     header( "Location: index.php" );
   }
+  require( TEMPLATE_PATH . "/cs_temp.php" );
 
 }
  ?>
